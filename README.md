@@ -1,84 +1,84 @@
-# 🐍 Python desde Cero
+# 🐍 Python Learning
 
-¡Bienvenido! 👋
+Welcome! 👋
 
-Este repositorio documenta mi proceso de aprendizaje de **Python**, comenzando desde los conceptos más básicos hasta temas más avanzados. El objetivo es practicar, experimentar y construir una base sólida en el lenguaje mediante ejemplos y ejercicios.
+This repository documents my journey of learning **Python**, starting from the very basics and progressing to more advanced topics. The goal is to practice, experiment, and build a strong foundation in Python through examples, exercises, and small projects.
 
-## 📚 Contenido
+## 📚 Contents
 
-Este repositorio irá creciendo conforme avance en el aprendizaje. Algunos de los temas que se incluirán son:
+This repository will continue to grow as I learn. Some of the topics covered include:
 
-- ✅ Introducción a Python
-- ✅ Variables y tipos de datos
-- ✅ Operadores
-- ✅ Entrada y salida de datos
-- ✅ Condicionales (`if`, `elif`, `else`)
-- ✅ Bucles (`for`, `while`)
-- ✅ Funciones
-- ✅ Listas
-- ✅ Tuplas
-- ✅ Diccionarios
-- ✅ Conjuntos (Sets)
-- ✅ Manejo de cadenas
-- ✅ Manejo de archivos
-- ✅ Módulos y paquetes
-- ✅ Programación Orientada a Objetos (POO)
-- ✅ Manejo de excepciones
-- ✅ Librerías populares
-- ⏳ Proyectos prácticos
+- ✅ Introduction to Python
+- ✅ Variables and Data Types
+- ✅ Operators
+- ✅ Input and Output
+- ✅ Conditional Statements (`if`, `elif`, `else`)
+- ✅ Loops (`for`, `while`)
+- ✅ Functions
+- ✅ Lists
+- ✅ Tuples
+- ✅ Dictionaries
+- ✅ Sets
+- ✅ Strings
+- ✅ File Handling
+- ✅ Modules and Packages
+- ✅ Object-Oriented Programming (OOP)
+- ✅ Exception Handling
+- ✅ Popular Libraries
+- ⏳ Practical Projects
 
 ---
 
-## 📂 Estructura del repositorio
+## 📂 Repository Structure
 
 ```text
-Python-Desde-Cero/
+Python-Learning-Journey/
 │
-├── 01_Introduccion/
+├── 01_Introduction/
 ├── 02_Variables/
-├── 03_Operadores/
-├── 04_Condicionales/
-├── 05_Bucles/
-├── 06_Funciones/
-├── 07_Colecciones/
-├── 08_Archivos/
-├── 09_POO/
-├── 10_Proyectos/
+├── 03_Operators/
+├── 04_Conditionals/
+├── 05_Loops/
+├── 06_Functions/
+├── 07_Collections/
+├── 08_Files/
+├── 09_OOP/
+├── 10_Projects/
 └── README.md
 ```
 
-Cada carpeta contiene ejemplos comentados y ejercicios relacionados con el tema.
+Each folder contains commented examples and exercises related to its topic.
 
 ---
 
-## 🚀 Objetivos
+## 🚀 Goals
 
-- Aprender la sintaxis de Python.
-- Comprender los fundamentos de la programación.
-- Resolver ejercicios para reforzar conocimientos.
-- Desarrollar pequeños proyectos.
-- Crear una base sólida para aprender áreas como:
-  - Ciencia de Datos
-  - Inteligencia Artificial
-  - Desarrollo Web
-  - Automatización
-  - Computación Cuántica
+- Learn Python syntax.
+- Understand the fundamentals of programming.
+- Solve exercises to reinforce concepts.
+- Build small practical projects.
+- Develop a strong foundation for learning fields such as:
+  - Data Science
+  - Artificial Intelligence
+  - Web Development
+  - Automation
+  - Quantum Computing
 
 ---
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
-- Python 3.12 o superior (también funciona con versiones recientes de Python 3)
-- Visual Studio Code (recomendado)
-- Extensión de Python para VS Code
+- Python 3.12 or later (recent Python 3 versions are also supported)
+- Visual Studio Code (recommended)
+- Python extension for VS Code
 
-Verifica tu instalación con:
+Check your Python installation with:
 
 ```bash
 python --version
 ```
 
-o
+or
 
 ```bash
 python3 --version
@@ -86,48 +86,48 @@ python3 --version
 
 ---
 
-## ▶️ Cómo ejecutar un programa
+## ▶️ Getting Started
 
-Clona el repositorio:
+Clone the repository:
 
 ```bash
-git clone https://github.com/tu-usuario/Python-Desde-Cero.git
+git clone https://github.com/your-username/python-learning-journey.git
 ```
 
-Entra al directorio:
+Navigate to the project directory:
 
 ```bash
-cd Python-Desde-Cero
+cd python-learning-journey
 ```
 
-Ejecuta cualquier archivo:
+Run any Python file:
 
 ```bash
-python archivo.py
+python filename.py
 ```
 
 ---
 
-## 📖 Recursos recomendados
+## 📖 Recommended Resources
 
-- Documentación oficial de Python: https://docs.python.org/3/
+- Official Python Documentation: https://docs.python.org/3/
 - Python Tutor: https://pythontutor.com/
 - Real Python: https://realpython.com/
 
 ---
 
-## 🤝 Contribuciones
+## 🤝 Contributing
 
-Este repositorio está enfocado en mi aprendizaje personal, pero cualquier sugerencia, mejora o corrección es bienvenida.
-
----
-
-## ⭐ Progreso
-
-El contenido se irá actualizando conforme avance en el aprendizaje de Python.
+This repository is primarily intended to document my personal learning journey. However, suggestions, improvements, and corrections are always welcome.
 
 ---
 
-## 📄 Licencia
+## ⭐ Progress
 
-Este proyecto se distribuye bajo la licencia MIT.
+The repository will be continuously updated as I explore new Python concepts and complete additional exercises and projects.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
