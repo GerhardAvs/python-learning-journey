@@ -2,6 +2,18 @@ import os
 import Client_Class
 from random import randint
 
+def Menu():
+    print('\n//////////////////////////////////////')
+    print('//////  Turnos para la farmacia  ///////')
+    print('////////////////////////////////////////')
+    print('1.Crear cuenta')
+    print('2.Iniciar sesion')
+    print('3.Depositar')
+    print('4.Retirar')
+    print('5.Mostar datos')
+    print('6.Salir')
+    return int(input('Ingrese el numero de su opcion: '))
+
 def crear_cliente(flag):
     os.system('cls')
     if flag == False:
@@ -16,3 +28,4 @@ def crear_cliente(flag):
     else:
         print('La cuenta inicio con exito')
         return Client_Class.cliente('Ger', 'Avs', 90107, 20450)
+    
