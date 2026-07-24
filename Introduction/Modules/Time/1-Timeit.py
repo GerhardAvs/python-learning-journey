@@ -11,5 +11,40 @@ que mide el tiempo de ejecución de un bloque de código repetido varias veces, 
 repeat(), que realiza varias mediciones para obtener resultados más consistentes.
 """
 
-from timeit import *
+import timeit
+
+declaracion_for = """
+prueba_for(10)
+"""
+mi_setup_for = """
+def prueba_for(numero):
+
+    lista = []
+    
+    for num in range(numero + 1):
+        lista.append(num)
+        
+    return lista
+"""
+declaracion_while = """
+prueba_while(10)
+"""
+mi_setup_while = """
+def prueba_while(numero):
+    lista = []
+    contador = 1
+    
+    while contador <= numero:
+        lista.append(contador)
+        contador += 1
+        
+    return lista
+"""
+duracion_for = timeit.timeit(declaracion_for, mi_setup_for, number = 10000)
+duracion_while = timeit.timeit(declaracion_while, mi_setup_while, number = 10000)
+
+print(f"duracion de la prueba for: {duracion_for}")
+print(f"duracion de la prueba while: {duracion_while}")
+
+
 
